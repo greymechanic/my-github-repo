@@ -1,2 +1,4 @@
-baseurl: http://notandrewkaye.github.io/my-github-repo
 title: My Github Site
+
+url: "http://notandrewkaye.github.io/my-github-repo/"
+baseurl: "/my-github-repo"
