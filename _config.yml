@@ -4,3 +4,11 @@ url: "http://0.0.0.0:4000/my-github-repo"
 baseurl: "/my-github-repo"
 
 permalink: pretty
+
+collections:
+    portfolio:
+        output: true
+    gallery:
+        output: true
+    altBlog:
+        output: true
