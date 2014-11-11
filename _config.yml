@@ -17,10 +17,7 @@ collections:
 prose:
   siteurl: 'http://notandrewkaye.github.io/my-github-repo/'
   media: 'img'
-  ignore: 
-    - index.html
-    - _includes
-    - _layouts
+  rooturl: '_posts'
   metadata:
     _posts:
       - name: "category"
