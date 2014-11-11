@@ -13,3 +13,43 @@ collections:
         output: true
     altBlog:
         output: true
+
+prose:
+  siteurl: 'http://notandrewkaye.github.io/my-github-repo/'
+  media: 'img'
+  ignore: 
+    - index.html
+    - _includes
+    - _layouts
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          label: "Category"
+          element: "text"
+          value: "post"
+      - name: "layout"
+        field:
+          label: "Layout"
+          element: "text"
+          value: "generic"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Title goes here."
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
