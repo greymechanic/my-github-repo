@@ -1,8 +1,9 @@
 ---
 title: My First Portfolio Item
 layout: generic
-tag: cool-stuff
+tag: coolStuff
 author: Andrew Kaye
+collection: portfolio
 ---
 
 This is a part of the portfolio collection. 

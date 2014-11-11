@@ -2,7 +2,7 @@
 layout: generic
 title: Cool Post
 tag: cool thing
-category: this category
+category: Something
 published: true
 ---
 
