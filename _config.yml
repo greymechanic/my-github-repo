@@ -15,6 +15,16 @@ collections:
 
 gems:
 - jemoji
+- jekyll-sitemap
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/junk.html"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
 
 prose:
   siteurl: 'http://notandrewkaye.github.io/my-github-repo/'
